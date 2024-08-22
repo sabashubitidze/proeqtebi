@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ვან პისი - ოფიციალური ვებსაიტი</title>
+    <link rel="stylesheet" href="styles.css"> <!-- თქვენ უნდა შექმნათ ცალკე CSS ფაილი სტილისთვის -->
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>ვან პისი</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">მთავარი</a></li>
+                    <li><a href="#action">მოქმედება</a></li>
+                    <li><a href="#characters">პერსონაჟები</a></li>
+                    <li><a href="#episodes">ეპიზოდები</a></li>
+                    <li><a href="#blog">ბლოგი</a></li>
+                    <li><a href="#gallery">გალერია</a></li>
+                    <li><a href="#contact">კონტაქტი</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="container">
+            <h2>გამოიძიე მეკობრეების მსოფლიოს</h2>
+            <p>შემოგვიერთდი ვან პისის მექსიკო თავგადასავალში!</p>
+        </div>
+    </section>
+
+    <main>
+        <section id="action">
+            <div class="container">
+                <h2>მოქმედება</h2>
+                <p>ანიმე სიუჟეტის მიმოხილვა, საინტერესო ფაქტები და სიახლეები.</p>
+            </div>
+        </section>
+
+        <section id="characters">
+            <div class="container">
+                <h2>პერსონაჟები</h2>
+                <p>გაეცანით პერსონაჟებს, მათი ისტორია და განვითარების გზას.</p>
+            </div>
+        </section>
+
+        <section id="episodes">
+            <div class="container">
+                <h2>ეპიზოდები</h2>
+                <p>ყველა ეპიზოდის მიმოხილვა და სექრეტები.</p>
+            </div>
+        </section>
+
+        <section id="blog">
+            <div class="container">
+                <h2>ბლოგი</h2>
+                <p>ბლოგ პოსტები და ახალი ამბები ვან პისზე.</p>
+            </div>
+        </section>
+
+        <section id="gallery">
+            <div class="container">
+                <h2>გალერია</h2>
+                <p>ფოტოები, ხელოვნების ნიმუშები და ფანების მიერ შექმნილი შინაარსი.</p>
+            </div>
+        </section>
+
+        <section id="contact">
+            <div class="container">
+                <h2>კონტაქტი</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">სახელი:</label>
+                    <input type="text" id="name" name="name" required>
+                    <br>
+                    <label for="email">ელ. ფოსტა:</label>
+                    <input type="email" id="email" name="email" required>
+                    <br>
+                    <label for="message">შეტყობინება:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+                    <br>
+                    <button type="submit">გაგზავნა</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    
+    
+</body>
+</html>
+
